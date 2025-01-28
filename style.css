@@ -10,6 +10,13 @@ body {
     display: flex;
 }
 
+.form-container {
+    padding: 6rem 1rem 0rem 1rem;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
 .side-pic {
     min-width: 35%;
     height: 100%;
