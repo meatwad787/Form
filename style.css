@@ -1,0 +1,11 @@
+.container {
+    width: 90vw;
+    height: 90vh;
+    border: 10px solid red; 
+    margin: 10px;
+}
+/* .nav {
+    width: 30%;
+    height: 100px;
+    border: 10px solid green;
+} */
