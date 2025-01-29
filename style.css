@@ -31,3 +31,8 @@ body {
     background-repeat: no-repeat; 
     background-position: center; 
 }
+
+/* Figure out how to do that and keep the form inside it's container */
+/* .fieldset {
+    display: flex;
+} */
