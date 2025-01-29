@@ -2,6 +2,7 @@ body {
     height: 100vh;
     /* border: 3px solid red; */
     display: flex;
+    background-color: #acc6ac;
 }
 .container {
     /* border: 2px solid yellowgreen; */
@@ -11,7 +12,7 @@ body {
 }
 
 .form-container {
-    padding: 6rem 1rem 0rem 1rem;
+    padding: 6rem 0rem 0rem 0rem;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -31,6 +32,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
+}
+
+header {
+        margin-left: .7rem;
+        margin-right: .5rem;
+}
+
+form {
+        /* background-color: red; */
+        margin-left: .7rem;
+        margin-right: .5rem;
 }
 
 /* Figure out how to do that and keep the form inside it's container */
