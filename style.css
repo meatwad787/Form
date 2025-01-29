@@ -38,3 +38,8 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.submit {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
