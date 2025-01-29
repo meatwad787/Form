@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: start;
     flex-direction: column;
+    
 }
 
 .side-pic {
@@ -33,6 +34,7 @@ body {
 }
 
 /* Figure out how to do that and keep the form inside it's container */
-/* .fieldset {
+.input-row {
     display: flex;
-} */
+    flex-direction: column;
+}
