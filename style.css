@@ -12,7 +12,7 @@ body {
 }
 
 .form-container {
-    padding: 3rem 6rem 0rem 2rem;
+    padding: 10rem 6rem 0rem 2rem;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -55,7 +55,7 @@ input {
     }
     .form-container {
         width: 21rem;
-        padding: 2rem 6rem 0rem 2rem;
+        padding: 10rem 6rem 0rem 2rem;
         display: flex;
         justify-content: start;
         flex-direction: column;
@@ -69,7 +69,7 @@ input {
     }
     .form-container {
         width: 21rem;
-        padding: 2rem 6rem 0rem 2rem;
+        padding: 10rem 6rem 0rem 2rem;
         display: flex;
         justify-content: start;
         flex-direction: column;
