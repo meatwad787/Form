@@ -12,7 +12,7 @@ body {
 }
 
 .form-container {
-    padding: 6rem 1rem 0rem 1rem;
+    padding: 10rem 6rem 0rem 2rem;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -35,12 +35,40 @@ body {
 }
 
 /* Figure out how to do that and keep the form inside it's container */
-.input-row {
+/* .input-row {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .submit {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 670px) {
+    body {
+        display: flex;
+    }
+    .form-container {
+        width: 21rem;
+        padding: 10rem 6rem 0rem 2rem;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        display: flex;
+    }
+    .form-container {
+        width: 21rem;
+        padding: 10rem 6rem 0rem 2rem;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        
+    }
 }

@@ -15,51 +15,62 @@
         <div class="form-container">
             <header>This is NOT a real online service. Let us pretend to sign up
                 for a potentially life changing service</header>
-            <div class="form">
-            <br>
-            <br>
+            
                 <form action="">
                     <fieldset class="fieldset">
                         <legend>Let's Get This Done!</legend>
-                        <!-- Make 2 rows seperated with divs -->
-                         <div class="first-row input-row">
-                            <label for="first-name">First Name  *
-                                <input type="text" name="first-name" id="first-name" required>
-                                </label>
+                        <!-- Make rows seperated with divs -->
+                         
+                            <ul>
+                                <div class="first-row input-row">
+                                    <li>
+                                        <label for="first-name">First Name  *
+                                            <input type="text" name="first-name" id="first-name" required>
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label for="last-name">Last Name  *
+                                            <input type="text" name="last-name" id="last-name" required>
+                                            </label>
+                                    </li>
+                                    <div class="second-row input-row">
+                                        <li>
+                                            <label for="email">Email  *
+                                            <input type="email" name="email" id="email" required>
+                                                </label>
+                                        </li>
+                                        <li>
+                                            <label for="phone">Phone
+                                            <input type="tel" class="phone" name="phone" id="phone" >
+                                                </label>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="third-row input-row">
+                                   
+                                    <li>
+                                        <label for="password">Password  *
+                                        <input type="password" name="password" id="password" required>
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label for="">Confirm Password  *
+                                        <input type="password" name="" id="" required>
+                                            </label>
+                                    </li>
+                                </div>
+                            </ul>
 
 
-                            <label for="last-name">Last Name  *
-                                <input type="text" name="last-name" id="last-name" required>
-                                </label>
-
-                           
-                         </div>
-                         <div class="second-row input-row">
-                            <label for="email">Email  *
-                            <input type="email" name="email" id="email" required>
-                                </label>
-
-                            <label for="phone">Phone
-                            <input type="tel" class="phone" name="phone" id="phone" >
-                                </label>
-
-                            <label for="password">Password  *
-                            <input type="password" name="password" id="password" required>
-                                </label>
-
-                            <label for="">Confirm Password  *
-                            <input type="password" name="" id="" required>
-                                </label>
-
-
-                         </div>
+                         
                     </fieldset>
                         <br>
                     <button type="submit" class="submit">Create Account</button>
                     <p>Already have an account?</p>
                     <a href="">log in</a>
                 </form>
-            </div>
+            
         </div>
     </div>
 </body>
