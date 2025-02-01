@@ -21,7 +21,7 @@ body {
 
 .side-pic {
     min-width: 35%;
-    height: 100%;
+    height: 160%;
     /* border: 2px solid rgb(0, 0, 0); */
    
 }
@@ -32,6 +32,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Figure out how to do that and keep the form inside it's container */
