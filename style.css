@@ -56,11 +56,11 @@ input {
     margin: 5px 0px 17px;
     border-radius: 20px;
 } input:user-invalid {
-    box-shadow:inset  1px 1px 1px 1px rgb(255, 0, 0);
+    box-shadow:inset  -1px 1px 1px 1px rgb(255, 0, 0);
 } input:user-valid {
-    box-shadow:inset  1px 1px 1px 1px #5dcf5d;
+   box-shadow: inset -1px 1px 1px 1px #5dcf5d;
 } input:optional {
-    box-shadow: inset 1px 1px 1px 1px rgb(0, 140, 255);
+    box-shadow: inset -1px 1px 1px 1px rgb(0, 140, 255);
 }
 
 
