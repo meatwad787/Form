@@ -4,6 +4,9 @@ body {
     display: flex;
     background-color: #acc6ac;
 }
+header {
+    width: 11rem;
+}
 .container {
     /* border: 2px solid yellowgreen; */
     width: 100%;
@@ -70,6 +73,7 @@ input {
     margin-bottom: 1rem;
     border-radius: 10px;
     background-color: #dcffdc;
+    width: 11rem;
 } .submit:hover {
     background-color: #5dcf5d;
 }
