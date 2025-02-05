@@ -53,6 +53,7 @@ form {
     color: rgb(186, 0, 0);
 }
 input {
+    height: 1.3rem;
     margin: 5px 0px 17px;
     border-radius: 20px;
 } input:user-invalid {
