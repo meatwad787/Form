@@ -48,12 +48,10 @@ form {
     display: flex;
     flex-direction: column;
 }
-
-/* Figure out how to do that and keep the form inside it's container */
-/* .input-row {
-    display: flex;
-    flex-direction: column;
-} */
+ 
+.required {
+    color: rgb(186, 0, 0);
+}
 input {
     margin: 5px 0px 17px;
     border-radius: 20px;
