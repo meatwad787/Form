@@ -57,7 +57,7 @@ form {
 }
 input {
     height: 1.3rem;
-    margin: 5px 0px 17px;
+    margin: 5px 0px 0px;
     border-radius: 20px;
 } input:user-invalid {
     box-shadow:inset  -1px 1px 1px 1px rgb(255, 0, 0);
@@ -117,9 +117,14 @@ input {
      } 
      fieldset {
         display: flex;
-
+        flex-direction: column;
      }
      .input-row {
         display: flex;
+     }
+     ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
      }
 }
