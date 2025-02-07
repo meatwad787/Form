@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
     
 }
 
@@ -57,7 +57,7 @@ form {
 }
 input {
     height: 1.3rem;
-    margin: 5px 0px 0px;
+    margin: 0.1rem 0rem 0.8rem;
     border-radius: 20px;
 } input:user-invalid {
     box-shadow:inset  -1px 1px 1px 1px rgb(255, 0, 0);
@@ -88,7 +88,7 @@ input {
         display: flex;
         justify-content: start;
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
         
     }
 }
