@@ -96,6 +96,8 @@ input {
 @media screen and (min-width: 900px) {
     body {
         display: flex;
+        overflow: hidden;
+        font-size: 25px;
     }
     header {
         width: 100%;
@@ -108,6 +110,7 @@ input {
     }
     .form-container {
         width: 100%;
+        margin-left: 5rem;
         /* padding: 5rem 6rem 0rem 3rem; */
         display: flex;
         justify-content: start;
@@ -119,12 +122,34 @@ input {
         display: flex;
         flex-direction: column;
      }
+
+     /* input[name="last-name"], input[name="phone"],
+     .confirm-password {
+        margin: 0rem 0rem 0rem 0rem;
+     } */
+
+     input {
+        margin: 0.2rem 5rem 0rem -0.5rem;
+        width: 15rem;
+        height: 1.5rem;
+        gap: 1px;
+     }
+
+     .first-row, .second-row, .third-row {
+        padding: 0rem 25rem 0rem 1rem;
+        margin: 0rem 0rem 0rem -1rem;
+     }
      .input-row {
-        display: flex;
+        display: flex;   
      }
      ul {
         display: flex;
         flex-direction: column;
         gap: 40px;
+     }
+     .submit {
+        margin-top: 3rem;
+        font-size: 1em;
+        height: 2rem;
      }
 }
