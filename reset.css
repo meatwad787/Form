@@ -48,7 +48,8 @@ table {
 	border-spacing: 0;
 }
 input[type="submit"], 
-input[type="button"] {
+input[type="button"],
+button[type="submit"] {
     -webkit-appearance: none;
     appearance: none;
 }
