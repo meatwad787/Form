@@ -110,7 +110,7 @@ input {
     }
     .form-container {
         width: 100%;
-        margin-left: 5rem;
+        margin-left: 2rem;
         /* padding: 5rem 6rem 0rem 3rem; */
         display: flex;
         justify-content: start;
