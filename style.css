@@ -6,6 +6,7 @@ body {
 }
 header {
     width: 11rem;
+    font-weight: bold;
 }
 .container {
     /* border: 2px solid yellowgreen; */
