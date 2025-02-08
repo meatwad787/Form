@@ -60,7 +60,7 @@ form {
 
 label {
     font-size: 1.1em;
-}
+} p { font-size: 0.4rem}
 input {
     height: 1.3rem;
     margin: 0.1rem 0rem 0.8rem;
@@ -96,6 +96,8 @@ input {
         flex-direction: column;
         gap: 3rem;
         
+    } span {
+        color: rgb(186, 0, 0);
     }
 }
 
@@ -129,7 +131,9 @@ input {
      fieldset {
         display: flex;
         flex-direction: column;
-     }
+     } span {
+        color: rgb(186, 0, 0);
+    }
 
      input {
         margin: 0.2rem 5rem 0rem -0.5rem;
