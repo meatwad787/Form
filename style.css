@@ -123,11 +123,6 @@ input {
         flex-direction: column;
      }
 
-     /* input[name="last-name"], input[name="phone"],
-     .confirm-password {
-        margin: 0rem 0rem 0rem 0rem;
-     } */
-
      input {
         margin: 0.2rem 5rem 0rem -0.5rem;
         width: 15rem;
