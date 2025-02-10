@@ -65,13 +65,15 @@ label {
 input {
     height: 1.3rem;
     margin: 0.1rem 0rem 0.8rem;
-    border-radius: 20px;
+    border: none;
+    border-radius: 10px;
 } input:user-invalid {
     box-shadow:inset  -1px 1px 1px 1px rgb(255, 0, 0);
 } input:user-valid {
    box-shadow: inset -1px 1px 1px 1px #5dcf5d;
-} input:optional {
-    box-shadow: inset -1px 1px 1px 1px rgb(0, 140, 255);
+} input:focus {
+    box-shadow:  1px 1px 1px 1px rgb(0, 140, 255);
+    outline: none;
 }
 
 
