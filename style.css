@@ -68,11 +68,11 @@ input {
     border: none;
     border-radius: 10px;
 } input:user-invalid {
-    box-shadow:  1px 1px 12px 0px rgb(255, 0, 0);
+    box-shadow:  1px 4px 12px 0px rgb(255, 0, 0);
 } input:user-valid {
-    box-shadow: 1px 1px 7px 5px #5dcf5d;
+    box-shadow: 1px 4px 7px 5px #5dcf5d;
 } input:focus {
-    box-shadow: 1px 1px 12px 0px rgb(0, 140, 255);
+    box-shadow: 1px 4px 12px 0px rgb(0, 140, 255);
     outline: none;
 } input:optional {
     box-shadow: none;
